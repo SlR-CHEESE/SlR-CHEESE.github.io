@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,31 +13,46 @@ gtag('js', new Date());
 gtag('config', 'G-L7856P3VNT');
 </script>
 
+<script src="https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js"></script>
+
 <style>
 
 html, body{
 margin:0;
 padding:0;
 height:100%;
+width:100%;
 background:black;
+overflow:hidden;
 display:flex;
 justify-content:center;
 align-items:center;
-overflow:hidden;
+}
+
+.game-wrapper{
+width:100vw;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
 .game-container{
-width:800px;
-height:600px;
-max-width:100%;
-max-height:100%;
+aspect-ratio: 4 / 3;
+width:100%;
+height:100%;
+max-width:100vw;
+max-height:100vh;
 }
 
 .game-container object,
 .game-container embed{
 width:100%;
 height:100%;
+display:block;
 }
+
+/* Sidebar Ads */
 
 #sidebarad1,
 #sidebarad2{
@@ -66,12 +81,11 @@ cursor:pointer;
 }
 
 </style>
-
 </head>
 
 <body>
 
-<script src="https://cdn.jsdelivr.net/gh/u-cvlassrom-y/google@main/ruffle.js"></script>
+<div class="game-wrapper">
 
 <div class="game-container">
 
@@ -81,6 +95,8 @@ cursor:pointer;
 <embed src="https://cdn.jsdelivr.net/gh/Bescr01/swf@e2ab9deab96c02aaa67e56334d34ccea3bbb8a3e/Papa's%20Scooperia.swf">
 
 </object>
+
+</div>
 
 </div>
 
